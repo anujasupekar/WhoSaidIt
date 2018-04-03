@@ -1,0 +1,85 @@
+.bodyStyle {
+	background: #90AFC5;
+}
+
+.mainContainer{
+	width: 960px;
+	margin:auto;
+	color: #2A3132;
+	font-family: cursive;
+}
+
+.mainHeader{
+	font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.subHeader{
+	font-size: 16px;
+	text-align: center;
+}
+
+.quotesContainer{
+	margin-top: 15px;
+}
+
+.quote{
+	height: 60px;
+    width: 60px;
+    margin: 10px;
+    border: 5px solid #2A3132;
+    display: inline-block;
+    background: #90AFC5;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.quote:hover{
+	border: 5px solid #90AFC5;
+    display: inline-block;
+    background: #2A3132;
+    color:#90AFC5;
+}
+
+.singleQuote{
+	position: fixed;
+    top: 100px;
+    width: 810px;
+    padding: 50px;
+    background: #cbfbfd;
+    border: 5px solid #5251bb;
+    border-radius: 10px;
+    display: none;
+    white-space: pre-line;
+}
+
+.quoteAnswers{
+	margin-top: 50px;
+}
+
+#closeBtn{
+    height: 30px;
+    width: 30px;
+    background: red;
+    top: -16px;
+    left: 890px;
+    position: absolute;
+}
+
+.incorrectAnswer{
+    position: absolute;
+    left: 350px;
+}
+
+#tryAgainBtn{
+    position: absolute;
+    left: 60px;
+}
+
+#successText{
+    left: 350px;
+    position: absolute;
+}
